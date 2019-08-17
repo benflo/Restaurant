@@ -14,3 +14,5 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/restaurants/{id}','RestaurantController@show')->name('restaurants.show');
+Route::get('/restaurants','RestaurantController@index')->name('restaurants.index');
