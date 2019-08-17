@@ -15,7 +15,7 @@ class DatabaseSeeder extends Seeder
             DB::table('restaurants')->insert(['name' => 'Restaurant ' . $i]);
         }
 
-        DB::table('days')->insert([
+        DB::table('jours')->insert([
             ['name' => 'Lundi' ],
             ['name' => 'Mardi' ],
             ['name' => 'Mercredi' ],
